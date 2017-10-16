@@ -1,0 +1,22 @@
+{
+  "name": "travisjs",
+  "version": "1.0.0",
+  "description": "Testing Travis with JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jshint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamsuu/travisjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamsuu/travisjs/issues"
+  },
+  "homepage": "https://github.com/jamsuu/travisjs#readme",
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  }
+}
