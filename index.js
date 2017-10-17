@@ -1,1 +1,1 @@
-console.log("sad"asd);
+console.log("sad");
