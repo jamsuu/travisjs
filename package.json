@@ -1,22 +1,20 @@
 {
-  "name": "travisjs",
+  "private": true,
+  "name": "admin",
   "version": "1.0.0",
   "description": "Testing Travis with JS",
   "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/.bin/jshint index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jamsuu/travisjs.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/jamsuu/travisjs.git",
+  "author": "David Vu <davidv@worldmanager.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jamsuu/travisjs/issues"
   },
   "homepage": "https://github.com/jamsuu/travisjs#readme",
   "devDependencies": {
-    "jshint": "^2.9.5"
-  }
+    "lerna": "^2.4.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
